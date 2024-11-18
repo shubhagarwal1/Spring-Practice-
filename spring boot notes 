@@ -1,0 +1,87 @@
+java 
+	oops
+		inheritance 
+		abstraction 
+		polymorphism
+
+
+spring boot 
+	springboot project intiliser 
+		depdecies inject 
+	return zip folder
+
+hotel management app 
+	
+
+layers 
+- conteroller = keep the api 
+- service = business logic 
+- repo = intract with db 
+- config = to work with 3rd party apis 
+- dto = req res (schema)
+- entity = table (schema)
+
+
+packages done 
+
+DB structure 
+
+
+oyo 
+customer 
+	id 
+	name 
+	phone 
+	email 
+
+hotel 
+	id 
+	name 
+	location 
+	status 
+	contact number 
+
+rooms
+	id 
+	room type (enum)
+	status 
+	max-occupancy
+
+pricing-inventory
+	id 
+	hotelid 
+	room id 
+	date
+	price
+	hotel-room-availability
+
+hotel-room-mapping 
+	id 
+	hotel id 
+	room id 
+	inventory(total number of rooms)
+
+	
+booking
+	id 
+	customer id 
+	booking amount 
+	checkin date
+	checout date 
+	hotel id 
+	room id 
+	occupancy
+
+
+
+
+
+annotations
+layers 
+db connection
+
+
+
+
+
+
